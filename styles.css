@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family:'Times New Roman', Times, serif;
+}
+
+#navbar {
+    position: sticky;
+    top: 0;
+    overflow: visible;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgb(59, 59, 59);
+    height: 10vh;
+    width: 100%;
+    font-size: 2.5rem;
+    color: lightblue;
+}
+
+#navbar>* {
+    margin: 0 2rem;
+}
+
+#navbar a {
+    text-decoration: none;
+    color: lightblue;
+}
+
+#navbar a:hover {
+    text-decoration: underline;
+}
+
+.page {
+    background: rgb(59, 59, 59);
+    color: white;
+    display: flex;
+    height: 90vh;
+    width: 100%;
+
+}
+
+#main {
+    flex-direction: column-reverse;
+    justify-content: space-between;
+}
+
+#main h1 {
+    font-size: 8rem;
+}
+
+.block  {
+    display: flex;
+    justify-content: space-between;
+    height: 60%;
+    font-size: 1.5rem;
+}
+
+#description {
+    text-align: right;
+    overflow-wrap: break-word;
+    max-width: 40%;
+}
+
+.idk {
+    width: 50vw;
+}
+
+#projects {
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+.items {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+#projects h2 {
+    margin: auto;
+    margin-top: 5rem;
+    font-size: 2.5rem;
+}
+
+#project-items {
+    height: 100%;
+    overflow: hidden;
+    align-items: center;
+    text-align: center;
+}
+
+.project-item {
+    width: 25vw;
+    height: 25vw;
+    font-size: 1.3rem;
+}
+
+.project-item iframe {
+    width: 100%;
+    height: 100%;
+    border: solid 5px lightblue;
+    border-radius: 10px;
+}
